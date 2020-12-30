@@ -10,7 +10,6 @@ const browserSync = require("browser-sync").create();
 const cssnano = require("cssnano");
 const concat = require("gulp-concat");
 const postcss = require("gulp-postcss");
-const replace = require("gulp-replace");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
 const imagemin = require("gulp-imagemin");
